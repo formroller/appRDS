@@ -1,16 +1,18 @@
 package com.example.apprds;
 
+import com.example.domain.apprds.AppRdsApplication;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-@SpringBootTest
+@SpringBootTest(classes = AppRdsApplication.class)
 class AppRdsApplicationTests {
 
     @Autowired

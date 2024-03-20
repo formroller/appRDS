@@ -1,4 +1,4 @@
-package com.example.apprds;
+package com.example.domain.apprds;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
