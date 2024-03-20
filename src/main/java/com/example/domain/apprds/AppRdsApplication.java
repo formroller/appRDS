@@ -1,13 +1,13 @@
-package com.example.appec2;
+package com.example.domain.apprds;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AppEc2Application {
+public class AppRdsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AppEc2Application.class, args);
+        SpringApplication.run(AppRdsApplication.class, args);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.example.apprds.controller;
+package com.example.domain.apprds.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
