@@ -1,1 +1,29 @@
-spring.application.name=appEC2
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://practice-database1.c7icmo2uo4tc.ap-northeast-2.rds.amazonaws.com:3306/webdb?serverTimezone=Asia/Seoul
+    username: tester
+    password: testtest
+
+  # for test
+  hikari:
+    dataSource:
+      hikari:
+        minimum-idle: 1
+        maximum-pool-size: 2
+
+  jpa:
+    hibernate:
+      ddlAuto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show_sql: true
+
+logging:
+  org:
+    level:
+      springframework: info
+      springframework.security: trace
+
